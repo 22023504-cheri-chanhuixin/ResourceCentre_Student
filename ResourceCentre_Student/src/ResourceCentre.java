@@ -324,7 +324,7 @@ public class ResourceCentre {
 		for (int i = 0; i < chromebookList.size(); i++) {
 			if (tag.equalsIgnoreCase(chromebookList.get(i).getAssetTag())
 					&& chromebookList.get(i).getIsAvailable() == false) {
-				chromebookList.get(i).setIsAvailable(true);
+				chromebookList.get(i).setIsAvailable(true);//nidoc
 				chromebookList.get(i).setDueDate("");
 				isReturned = true;
 				
